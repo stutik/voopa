@@ -1,0 +1,38 @@
+[7/9/2017, 8:51:16 PM] layer "Trackerbg3.svg": Duplicate path: Trackerbg3.svg
+[7/9/2017, 8:51:16 PM] layer "arrow.png": Duplicate path: arrow.png
+[7/9/2017, 8:51:16 PM] layer "arrow.png": Duplicate path: arrow.png
+[7/9/2017, 8:51:16 PM] layer "arrow.png": Duplicate path: arrow.png
+[7/9/2017, 8:51:16 PM] layer "calendar-icon.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Arrow.png copy 2": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Trackerbg4.svg": Duplicate path: Trackerbg4.svg
+[7/9/2017, 8:51:16 PM] layer "tracker-step1.png": Duplicate path: tracker-step1.png
+[7/9/2017, 8:51:16 PM] layer "Trackerbg2.svg": Duplicate path: Trackerbg2.svg
+[7/9/2017, 8:51:16 PM] layer "tracker-step2.png": Duplicate path: tracker-step2.png
+[7/9/2017, 8:51:16 PM] layer "Trackerbg3.svg": Duplicate path: Trackerbg3.svg
+[7/9/2017, 8:51:16 PM] layer "tracker-step3.png": Duplicate path: tracker-step3.png
+[7/9/2017, 8:51:16 PM] layer "Trackerbg3.svg": Duplicate path: Trackerbg3.svg
+[7/9/2017, 8:51:16 PM] layer "tracker-step4.png": Duplicate path: tracker-step4.png
+[7/9/2017, 8:51:16 PM] layer "Tracker.jpg copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Arrow.png copy 4": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Arrow.png copy 5": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Trackerbg4.svg copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Trackerbg2.svg copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Trackerbg3.svg copy": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Trackerbg3.svg copy 2": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Arrow.png copy 3": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Arrow.png copy 6": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "arrow.png copy 2": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "calendar-icon.png copy 2": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "calendar-icon.png copy 3": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Arrow.png copy 7": Expected end of input but "c" found.
+[7/9/2017, 8:51:16 PM] layer "Edit btn.png copy": Expected end of input but "c" found.

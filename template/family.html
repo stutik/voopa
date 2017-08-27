@@ -1,0 +1,129 @@
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2>3. Additional family details</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <form  action="#" name="myForm"  ng-submit="submit($event)"  ng-controller="familyCtrl" novalidate>
+                        <div class="form-group form-inline">
+                            <div class="col-sm-12">
+                                <p>Number of additional family members
+                                    <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h3>Additional Member 1</h3>
+                               
+                    
+            <div class="row dateofdirth">
+
+                    <div class="form-group form-inline">
+                        <div class="col-sm-12">
+                            <label for="">Date of Birth</label>
+                        </div>
+                        <div class="col-sm-10">
+                            <span ng-class="{'has-error' : myForm.date.$touched && myForm.date.$invalid }">
+                     <span class="help-block dd" 
+                            ng-if="myForm.date.$touched && myForm.date.$error.required">
+                            please select date.</span>
+                            <select name="date" ng-model="user.dob.date" class="form-control box-shadow" required>
+                                <option value="">DD</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                    </select></span>
+
+                            <span ng-class="{'has-error' : myForm.month.$touched && myForm.month.$invalid }">
+                                     <span class="help-block mm" 
+                            ng-if="myForm.month.$touched && myForm.month.$error.required">
+                            please select month.</span>
+                            <select name="month" ng-model="user.dob.month" class="form-control box-shadow" required>
+                                <option value="">MM</option>
+                               
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                               
+                                         </select></span>
+                            </span>
+                            <span ng-class="{'has-error' : myForm.year.$touched && myForm.year.$invalid }">
+                                         <span class="help-block yy"
+                            ng-if="myForm.year.$touched && myForm.year.$error.required">
+                            please select year.</span>
+                            <select name="year" ng-model="user.dob.year" class="form-control box-shadow" required>
+                                <option value="">YYYY</option>
+                                 <option>1000</option>
+                                <option>2000</option>
+                                <option>3000</option>
+                                <option>4000</option>
+                                <option>5000</option>
+                                
+                                              </select></span>
+                        </div>
+                    </div>
+                </div>
+                  
+                          <div class="row occupation">
+                    <div class="form-group form-inline" ng-class="{'has-error' : myForm.occupation.$touched && myForm.occupation.$invalid }">
+                        <div class="col-sm-12">
+                            <label for="">Occupation</label>
+                        </div>
+                        <div class="col-sm-10">
+                            <span class="help-block" ng-if="myForm.occupation.$touched && myForm.occupation.$error.required">
+                            please select occupation.</span>
+                            <select name="occupation" ng-model="user.occupation" class="form-control box-shadow width" required>
+                            <option value="">Please Select</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                           </select></div>
+                    </div>
+                </div> 
+                          
+                            <div class="form-group form-inline">
+                                <div class="col-sm-12">
+                                    <label for="gender">Gender</label>
+                                </div>
+                                <div class="col-sm-12">
+                                    <label>
+                                <input type="radio" name="gender" ng-model="user.gender" role="m" value="male" checked> <span></span> </label>
+                                    <label>
+                                <input type="radio" name="gender" ng-model="user.gender" role="f" value="female"> <span></span> </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group form-inline">
+                                <div class="col-sm-12">
+                                    <label for="smoke">Do you smoke</label>
+                                </div>
+                                <div class="col-sm-12">
+                                    <label>
+                                <input type="radio" name="smoke" ng-model="user.smoking" role="s" value="yes" checked><span></span></label>
+                                    <label>
+                                <input type="radio" name="smoke" ng-model="user.smoking" role="k" value="no"><span></span></label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Continue</button>
+                        </div>
+                    </form>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    

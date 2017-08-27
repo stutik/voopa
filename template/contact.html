@@ -1,0 +1,72 @@
+
+   
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2>2.Your Contact Details</h2>
+                <form name="myForm" ng-submit="submit($event)" ng-controller="contactCtrl" novalidate>
+
+                    <div class="row postcode">
+
+                        <div class="form-group form-inline">
+                            <div class="col-sm-2">
+                                <label for="name">Postcode</label>
+                            </div>
+                            <div class="col-sm-10"> <span ng-class="{'has-error' : myForm.postcode.$touched && 
+                            myForm.postcode.$invalid}">
+                            <span class="help-block " 
+                            ng-if="myForm.postcode.$touched && myForm.postcode.$error.required">
+                            please select postcode</span>
+                                <input type="number" name="postcode" ng-model="user.postcode" class="form-control" id="postcode" required>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row telephone">
+
+                        <div class="form-group form-inline">
+                            <div class="col-sm-2">
+                                <label for="name">Telephone</label>
+                            </div>
+                            <div class="col-sm-10"> <span ng-class="{'has-error' : myForm.telephone.$touched && 
+                            myForm.telephone.$invalid}">
+                            <span class="help-block " 
+                            ng-if="myForm.telephone.$touched && myForm.telephone.$error.required">
+                            please select telephone</span>
+                                <input type="nuumber" name="telephone" ng-model="user.telephone" class="form-control" id="telephone" required>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row email">
+
+                        <div class="form-group form-inline">
+                            <div class="col-sm-2">
+                                <label for="name">Email</label>
+                            </div>
+                            <div class="col-sm-10"> <span ng-class="{'has-error' : myForm.email.$touched && 
+                            myForm.email.$invalid}">
+                            <span class="help-block " 
+                            ng-if="myForm.email.$touched && myForm.email.$error.required">
+                            please select email</span>
+                                <input type="email" name="email" ng-model="user.email" class="form-control" id="email" required>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">Please tick me if uyou would like to receive message from bupa.</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary">Continue</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   
